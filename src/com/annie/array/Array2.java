@@ -1,6 +1,5 @@
-package com.annie.testing;
-
-public class Array {
+package com.annie.array;
+public class Array2 {
 	
 		public static void main(String[] args) {
 			
