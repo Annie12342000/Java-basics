@@ -3,6 +3,7 @@ public class Array2 {
 	
 		public static void main(String[] args) {
 			
+			
 		int num1 = 0;
 		int num2 =0;
 		int [] a = {1,3,5,2,5};

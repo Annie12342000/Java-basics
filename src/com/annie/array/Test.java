@@ -13,6 +13,7 @@ public class Test {
 				
 		
 		};
+		
 		//Arrays.sort(s);
 		Arrays.sort(s,new ageComp());
 		for(Student stu:s)
