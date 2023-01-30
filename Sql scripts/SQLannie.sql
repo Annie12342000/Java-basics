@@ -25,4 +25,6 @@ select ename,hiredate as joiningdate from emp;
 select ename,hiredate as joiningdate from emp;
 
 
+select * from bonus;
+
 
