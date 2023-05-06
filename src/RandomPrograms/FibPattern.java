@@ -4,7 +4,7 @@ public class FibPattern {
 	public static void main(String[] args) {
 		Stack q = new Stack();
 		int n=5;
-		int fib;
+		//int fib;
 		int a =0,b=1,c;
 		int spaces=0;
 		int odd = 0;
