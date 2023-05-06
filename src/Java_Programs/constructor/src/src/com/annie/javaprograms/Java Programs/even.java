@@ -1,0 +1,16 @@
+
+class even
+{
+	public static void main(String[] args) 
+	{
+		int a=0,b=1,c;
+		for (int i=10;i<=100;i++)
+		{
+			if(a>10 && a<100 && a%2==0)
+		System.out.println(a);
+			c=a+b;
+			a=b;
+			b=c;
+	}
+}
+}

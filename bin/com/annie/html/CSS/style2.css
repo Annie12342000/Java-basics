@@ -1,0 +1,32 @@
+body{
+            background-color: lightskyblue;
+            background-image: url('C:/img/h.webp');
+            background-repeat: no-repeat;
+            background-position: bottom,120px;
+            background-position: left,150px;
+            
+        }
+        h1{
+        	color: white;
+        	font-size: 50px;
+        }
+        div{
+        	
+        	color: white;
+
+
+        }
+        p{
+        	color: navy;
+        }
+        button:hover{
+        	background-color: green;
+        }
+        td{
+        	color: navy;
+        }
+    </style>
+
+
+
+

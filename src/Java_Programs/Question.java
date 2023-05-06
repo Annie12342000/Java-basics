@@ -1,0 +1,12 @@
+class Question 
+{
+	public static void main(String[] args) 
+	{
+		int i = 10;
+		int b = i++ + ++i + i++ + i++ + ++i;
+		int d = --i - i++ - ++i + i-- - ++i;
+		int e = --i + d-- + --b + i++;
+		int result = b+d+e-(-b+d-e);
+		System.out.println(result);
+	}
+}

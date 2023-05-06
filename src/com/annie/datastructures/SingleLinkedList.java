@@ -2,9 +2,11 @@ package com.annie.datastructures;
 
 public class SingleLinkedList {
 
-	private Node first = null;
-	private int count = 0;
-	private Node last = null;
+	//public static void main(String[] args) {
+	  
+		private Node first = null;
+		private int count = 0;
+		private Node last = null;
 
 	public void add(Object e) {
 		if (first == null) {
@@ -43,7 +45,7 @@ public class SingleLinkedList {
 		if (index <= -1 || index >= size()) {
 			throw new IndexOutOfBoundsException();
 		}
-
+		  	
 		if (index == 0) {
 			first = new Node(e, first);
 			count++;

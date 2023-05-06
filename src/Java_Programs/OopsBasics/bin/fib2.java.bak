@@ -1,0 +1,23 @@
+
+class fib2
+
+{
+	public static void main(String[] args) 
+	{
+		System.out.print("enter a number");
+		int n =50;
+		int a =0,b=1,c;
+		while(a<=n)
+		{
+			if(a==n)
+			{
+		System.out.print(n+"is a fib num");
+		return;
+		}
+		 c=a+b;
+		 a=b;
+		 b=c;
+		}
+		System.out.print(n+"is not a Fib num");
+	}
+}

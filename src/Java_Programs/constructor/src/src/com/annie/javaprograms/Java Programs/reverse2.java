@@ -1,0 +1,18 @@
+import java.util.Scanner;
+class reverse2 
+{
+	public static void main(String[] args) 
+	{
+		Scanner scn=new Scanner(System.in);
+		System.out.println("enter a number");
+		int n = scn.nextInt();
+		int reverse,remainder;
+		while(n>0)
+		{
+			remainder= n%10;
+			reverse=remainder;
+			System.out.print(reverse);
+			n=n/10;
+		}
+	}
+}

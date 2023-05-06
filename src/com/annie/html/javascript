@@ -1,0 +1,11 @@
+function resultAll(a){
+let result = 0;
+for(let k =0; k<a.length;k++){
+for(let m = 0;m<a[k].length;m++)
+{
+if(a[k][m]>9)result+=(a[k][m]);
+}
+}
+return result;
+}
+resultAll([1,2],[3,4],[5,6,7]]);
